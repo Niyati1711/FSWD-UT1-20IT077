@@ -10,7 +10,6 @@ public class PatientRecord {
     private String address;
     private Integer age;
 
-
     public PatientRecord() {
     }
 
