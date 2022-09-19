@@ -19,6 +19,7 @@ public class PatientRecordController {
     }
 
     // Get the student information
+    
     @GetMapping("/patient/{id}")
     public PatientRecord getPatient(@PathVariable Long id) {
         return patientRecordRepository.findById(id).get();
@@ -32,6 +33,7 @@ public class PatientRecordController {
     }
 
     // Add new student
+    
     @PostMapping("/patient")
     public List<PatientRecord> addStudent(@RequestBody PatientRecord patientRecord) {
         patientRecordRepository.save(patientRecord);
