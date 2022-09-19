@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 const Navigationbar = () => {
   return (
     <div>
+    
        <Navbar bg="dark" className='px-3' variant="dark" expand="lg">
         <Navbar.Brand ><Link className="nav-link" to="/">Patient Management System</Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
