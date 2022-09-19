@@ -1,6 +1,7 @@
 import './App.css';
 import AddPatientRecord from './component/AddPatientRecord';
 import PatientList from './component/PatientList';
+
 import {
   BrowserRouter,
   Routes,
