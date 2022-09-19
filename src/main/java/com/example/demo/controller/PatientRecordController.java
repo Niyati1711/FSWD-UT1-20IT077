@@ -49,5 +49,4 @@ public class PatientRecordController {
         return patientRecordRepository.findAll();
     }
 
-
 }
