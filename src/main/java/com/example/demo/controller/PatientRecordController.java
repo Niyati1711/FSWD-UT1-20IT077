@@ -41,6 +41,7 @@ public class PatientRecordController {
     // Update the student information
     @PutMapping("/patient/{id}")
     public List<PatientRecord> updateStudent(@RequestBody PatientRecord patientRecord, @PathVariable Long id) {
+        
         PatientRecord patientObj = patientRecordRepository.findById(id).get();
         patientObj.setName(patientRecord.getName());
         patientObj.setAddress(patientRecord.getAddress());
