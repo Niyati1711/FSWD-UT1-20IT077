@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+
 import { Container } from 'react-bootstrap'
 import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
@@ -57,7 +58,6 @@ const AddPatientRecord = () => {
   }
       
     
-
 
     const changeValue = (e) => {
         if(e.target.name === "id"){
