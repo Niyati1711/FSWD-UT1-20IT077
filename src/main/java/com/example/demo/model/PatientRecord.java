@@ -13,7 +13,6 @@ public class PatientRecord {
 
 
     public PatientRecord() {
-
     }
 
     public PatientRecord(Long patientId, String name, String address, Integer age) {
