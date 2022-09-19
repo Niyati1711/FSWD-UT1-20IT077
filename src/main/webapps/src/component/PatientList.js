@@ -15,7 +15,6 @@ const [students, setStudents] = useState(null);
     .catch(error => console.log(error));
   }, []);
 
-
   const handleDelete = (id) => {
     console.log(id)
     axios.delete(`http://localhost:8080/patient/${id}`).then((response) => {
@@ -28,7 +27,6 @@ const [students, setStudents] = useState(null);
       <Table striped bordered hover>
       <thead>
         <tr>
-
           <th>Id</th>
           <th>Name</th>
           <th>Address</th>
