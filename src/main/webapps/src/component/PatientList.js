@@ -23,7 +23,6 @@ const [students, setStudents] = useState(null);
       // setStudents(response.data)
     })
   }
-
   return (
     <Container className='mt-2'>
       <Table striped bordered hover>
